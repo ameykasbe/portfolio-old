@@ -1,4 +1,15 @@
 {% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}
+Home
+{% endblock title %}
+
 {% block content %}
+{% include 'partials/_navbar.html' %}
+
+
+<img src="{% static 'base/images/IMG_0470.jpg' %}">
+
 <h1>Home</h1>
 {% endblock content %}
