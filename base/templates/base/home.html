@@ -2,14 +2,54 @@
 {% load static %}
 
 {% block title %}
-Home
+Amey Kasbe
 {% endblock title %}
 
 {% block content %}
-{% include 'partials/_navbar.html' %}
 
+<!-- Section: Introduction -->
+<section class="section section-intro">
+    <div class="section-intro-overlay valign-wrapper">
+        {% include 'partials/_navbar.html' %}
+        <div class="container center grey-text  text-lighten-3">
+            <div class="row">
+                <div class="col s12">
+                    <h1>HI, I'M AMEY</h1>
+                    <p>I make things for web.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<img src="{% static 'base/images/IMG_0470.jpg' %}">
+<!-- Section: About Me -->
+<section class="section about">
+    <div class="container center">
+        <div class="row">
+            <div class="s12">
+                <h3>About me</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <img src="{% static 'base/images/amey.jpg' %}" class="circle" height="200px" width="200px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <p>Hi! My name is Amey Kasbe and I'm a web developer with experience of above two and a half years in
+                    developing Django based web applications. While I am a proficient full stack developer, my expertise
+                    is developing scalable, efficient and
+                    secure backend services. I'm an incoming graduate student at <a href="https://uic.edu/">
+                        University of Illinois at Chicago</a> (MS
+                    in <a href="https://cs.uic.edu/graduate/ms-program/">Computer Science</a>). I've mostly worked
+                    professionally with Django, Python and JavaScript but also worked on technologies like C# and
+                    ASP.NET.
+                </p>
+                <p>Besides programming, I enjoy clicking photos and visiting new places.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-<h1>Home</h1>
 {% endblock content %}
