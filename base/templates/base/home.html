@@ -15,7 +15,7 @@ Amey Kasbe | Full Stack Web Developer
             <div class="row">
                 <div class="col s12">
                     <h1>HI, I'M AMEY</h1>
-                    <p>I make things for web.</p>
+                    <p>I make things for the web.</p>
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@ Amey Kasbe | Full Stack Web Developer
 </section>
 
 <!-- Section: About Me -->
-<section class="section about">
+<section class="section section-about">
     <div class="container center">
         <div class="row">
             <div class="s12">
@@ -37,13 +37,14 @@ Amey Kasbe | Full Stack Web Developer
         </div>
         <div class="row">
             <div class="col s12">
-                <p>Hi! My name is Amey Kasbe and I'm a web developer with experience of above two and a half years in
+                <p>
+                    Hi! My name is Amey Kasbe and I'm a web developer with experience of above two and a half years in
                     developing Django based web applications. While I am a proficient full stack developer, my expertise
                     is developing scalable, efficient and
                     secure backend services. I'm an incoming graduate student at <a href="https://uic.edu/">
                         University of Illinois at Chicago</a> (MS
                     in <a href="https://cs.uic.edu/graduate/ms-program/">Computer Science</a>). I've mostly worked
-                    professionally with Django, Python and JavaScript but also worked on technologies like C# and
+                    professionally with Django, Python and JavaScript but I've also worked on technologies like C# and
                     ASP.NET.
                 </p>
                 <p>Besides programming, I enjoy clicking photos, visiting new places and supporting FC Barcelona.</p>
@@ -51,5 +52,79 @@ Amey Kasbe | Full Stack Web Developer
         </div>
     </div>
 </section>
+
+<!-- Section: Experience -->
+<section class="section section-experience">
+    <div class="container center">
+        <div class="row">
+            <div class="col s12">
+                <h3>Experience</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card transparent">
+                    <div class="card-content">
+                        <img src="{% static 'base/images/augment-technologies.png' %}" class="responsive-img circle"
+                            width="150px" height="150px">
+                        <span class="card-title">Augment Technologies</span>
+                        <span class="time-range">May 2021 - Present</span>
+                        <ul class="fa-ul">
+                            <li class="left-align"><span class="fa-li"><i class="fas fa-angle-double-right"></i></span>
+                                Founded a software firm that specializes in assisting schools by providing digital
+                                solutions
+                                and
+                                products.
+                            </li>
+                            <li class="left-align"><span class="fa-li"><i class="fas fa-angle-double-right"></i></span>
+                                Conceptualized and developed a school management application "Athena" using
+                                Django, Python, JavaScript, and Materialize.
+                            </li>
+                            <li class="left-align"><span class="fa-li"><i class="fas fa-angle-double-right"></i></span>
+                                Strategically developed a business model and participate in all facets of business
+                                development.
+                            </li>
+                            <li class="left-align"><span class="fa-li"><i class="fas fa-angle-double-right"></i></span>
+                                Plan and oversee all organizational operations including recruitments, key policies, and
+                                objectives to maximize
+                                the team’s productivity and return on investment.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card transparent">
+                    <div class="card-content">
+                        <img src="{% static 'base/images/wipro.png' %}" class="responsive-img circle" width="150px"
+                            height="150px">
+                        <span class="card-title">Wipro Limited</span>
+                        <span class="time-range">August 2018 - May 2020</span>
+                        <ul class="fa-ul">
+                            <li class="left-align"><span class="fa-li"><i class="fas fa-angle-double-right"></i></span>
+                                Designed and developed log reporting application from the onset to significantly
+                                reduce the expenditure on the legacy software. Used technologies like Django, Python,
+                                JavaScript, Bootstrap.
+                            </li>
+                            <li class="left-align"><span class="fa-li"><i class="fas fa-angle-double-right"></i></span>
+                                Worked on legacy log reporting application on Splunk to analyze and visualize the Big
+                                Data
+                                according to the
+                                business needs using SPL queries and advanced XML on Splunk..
+                            </li>
+                            <li class="left-align"><span class="fa-li"><i class="fas fa-angle-double-right"></i></span>
+                                Gained exposure in all phases of the System Development Life Cycle (SDLC) – Agile.
+                                <br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
 {% endblock content %}

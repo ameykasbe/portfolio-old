@@ -20,6 +20,12 @@
   bottom: 0; */
 }
 
-.about{
+.section-about{
   background-color: rgba(246,248,250,255);
 }
+
+.section-experience{
+  background-color:  rgb(235, 236, 238);
+  
+}
+
