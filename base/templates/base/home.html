@@ -132,7 +132,7 @@ Amey Kasbe | Full Stack Web Developer
                 <h3>Things I have developed</h3>
             </div>
         </div>
-        <div class="card transparent z-depth-3">
+        <div class="card transparent">
             <div class="card-content">
                 <div class="row">
                     <div class="col s12 m4">
@@ -145,7 +145,7 @@ Amey Kasbe | Full Stack Web Developer
                 </div>
             </div>
         </div>
-        <div class="card transparent z-depth-3">
+        <div class="card transparent">
             <div class="card-content">
                 <div class="row">
                     <div class="col s12 m4">
@@ -158,7 +158,7 @@ Amey Kasbe | Full Stack Web Developer
                 </div>
             </div>
         </div>
-        <div class="card transparent z-depth-3">
+        <div class="card transparent">
             <div class="card-content">
                 <div class="row">
                     <div class="col s12 m4">
@@ -171,7 +171,7 @@ Amey Kasbe | Full Stack Web Developer
                 </div>
             </div>
         </div>
-        <div class="card transparent z-depth-3">
+        <div class="card transparent">
             <div class="card-content">
                 <div class="row">
                     <div class="col s12 m4">
@@ -184,7 +184,7 @@ Amey Kasbe | Full Stack Web Developer
                 </div>
             </div>
         </div>
-        <div class="card transparent z-depth-3">
+        <div class="card transparent">
             <div class="card-content">
                 <div class="row">
                     <div class="col s12 m4">
@@ -217,6 +217,61 @@ Amey Kasbe | Full Stack Web Developer
     </div>
 </section>
 
+<!-- Section: Contact -->
+<section class="section section-contact">
+    <div class="container center">
+        <div class="row">
+            <div class="col s12">
+                <h3>Get in touch with me</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 offset-m1">
+                <div class="card z-depth-3">
+                    <div class="card-content left-align">
+                        <form method="POST">
+                            {% csrf_token %}
+                            <label for="name">Name</label>
+                            <div class="input-field">
+                                <input type="text" name="name" id="name" placeholder="Name" required>
+                            </div>
+                            <label for="email" data-error="Invalid" data-success="Valid">Email</label>
+                            <div class="input-field">
+                                <input type="email" name="name" id="name" placeholder="Email" class="validate" required>
+                            </div>
+                            <label for="message">Message</label>
+                            <div class="input-field">
+                                <textarea name="message" id="message" cols="30" rows="10" class="materialize-textarea"
+                                    placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="center">
+                                <button type="submit" class="btn waves-effect waves-light blue-grey"
+                                    id="submit-button">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4 offset-m1">
+                    <div class="card z-depth-3">
+                        <div class="card-content">
+                            <i class="fas fa-paper-plane black-text fa-4x"></i>
+                            <p id="email-matter">If you have any project idea, job opportunity or if you want to
+                                connect with me feel free
+                                to drop an email.</p>
+                            <a href="mailto:amey.kasbe@gmail.com" target="_blank"
+                                class="btn waves-effect waves-light blue-grey">Shoot an email!</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Section: Footer -->
 <section class="section page-footer section-footer">
     <div class="container center">
@@ -237,6 +292,7 @@ Amey Kasbe | Full Stack Web Developer
                 <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"><span id="youtube"
                         class="waves-effect footer-icon"><i
                             class="fab fa-youtube grey-text text-lighten-2"></i></span></a>
+
             </div>
         </div>
         <div class="row">
