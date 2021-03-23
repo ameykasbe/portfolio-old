@@ -117,3 +117,6 @@
   margin-top: 30px;
 }
 
+.animation{
+  animation-delay: .5s;
+}
